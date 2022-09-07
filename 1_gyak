@@ -20,7 +20,7 @@ def main():
     CheckPi(pi)
 
     
-    list1 = [1,2,3,4]
+    list1 = [1,2,3,4,"5",[6,7,8]]
     print(list1)
 
     list2= [9,10,11]
@@ -38,6 +38,7 @@ str1= 'String 1'
 str2 = "'String2'"
 str3 = """multiline
 string"""
+print(str1,str2,str3)
 
 str4 = str1 +" "+ str2
 print(str4)
