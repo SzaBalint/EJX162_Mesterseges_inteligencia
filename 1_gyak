@@ -1,0 +1,48 @@
+# single line comment
+"""
+multiline comment
+"""
+
+pi = 22/7
+
+def CheckPi(val):
+    if val==3.14:
+        print("pi is 3.14")
+    elif val==3:
+        print("pi is not 3")
+    else:
+        print("too bad...")
+      
+      
+
+def main():
+    pi = 22/7
+    CheckPi(pi)
+
+    
+    list1 = [1,2,3,4]
+    print(list1)
+
+    list2= [9,10,11]
+    list3 = list1 + list2
+    print(list3)
+    
+    for element in list2:
+        print(element)
+        
+        
+    for index in range(len(list2)):
+        print(list2[index])
+        
+str1= 'String 1'
+str2 = "'String2'"
+str3 = """multiline
+string"""
+
+str4 = str1 +" "+ str2
+print(str4)
+
+       
+if __name__ == "__main__":
+    main()
+    
