@@ -1,0 +1,8 @@
+G S-0 X-8 Y-1 Z-4 W-1 G-0
+S X 1
+S Y 2
+S Z 3
+X W 1
+Y W 3
+Z W 1
+W G 3
